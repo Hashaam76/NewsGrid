@@ -31,7 +31,10 @@
   #showcase .showcase-container {
     grid-template-columns: 1fr;
   }
-
+  .main-header #navbar ul,
+  .main-header .logo {
+    justify-self: center;
+  }
   /* Footer */
   #main-footer .footer-container {
     grid-template-columns: 1fr;
